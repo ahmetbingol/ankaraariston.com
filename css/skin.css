@@ -1,0 +1,375 @@
+/* 
+================================
+Skin styles for DotNetNuke
+================================
+*/   
+.pagemaster {
+	width: 100%;
+	height: 100%;
+	background-image: url(background.jpg);
+	background-color: #cacbcf;
+	background-repeat: repeat-x;
+ }
+.skinmaster {
+	/*border-right: px solid;*/
+	border-top: 0px solid;
+	/*border-left: px solid;
+	border-bottom: px solid;*/
+	-moz-border-radius-bottomleft: 15px;
+	-moz-border-radius-bottomright: 15px;
+	-moz-border-radius-topleft: 3px;
+	-moz-border-radius-topright: 3px;
+	width: 930px;
+	height: 100%;
+	background-image: url(paneback.jpg);
+	background-color: #9dca71;
+	background-repeat: repeat-x;
+	}
+
+.controlpanel {
+	width: 100%;
+	background-color: transparent;
+}
+.toppane {
+	width: 100%;
+	background-color: transparent;
+	padding-left: 4px;
+	padding-right: 4px;
+	padding-top: 4px;
+}
+.leftpane {
+	width: 175px;
+	background-color: transparent;
+	padding-left: 4px;
+	padding-right: 4px;
+	padding-top: 4px;
+}
+.contentpane {
+	width: 100%;
+	background-color: transparent;
+	padding-left: 4px;
+	padding-right: 4px;
+	padding-top: 4px;
+}
+.rightpane {
+	width: 175px;
+	background-color: transparent;
+	padding-left: 4px;
+	padding-right: 4px;
+	padding-top: 4px;
+}
+.bottompane {
+	width: 100%;
+	background-color: transparent;
+	padding-left: 4px;
+	padding-right: 4px;
+	padding-top: 4px;
+}
+
+
+.middleleft {
+	width: 33%;
+	background-color: transparent;
+	padding-left: 4px;
+	padding-right: 4px;
+	padding-top: 4px;
+}
+
+.middlecenter {
+	width: 34%;
+	background-color: transparent;
+	padding-left: 4px;
+	padding-right: 4px;
+	padding-top: 4px;
+}
+
+.middleright {
+	width: 33%;
+	background-color: transparent;
+	padding-left: 4px;
+	padding-right: 4px;
+	padding-top: 4px;
+}
+
+.contentbottom {
+	width: 100%;
+	background-color: transparent;
+	padding-left: 4px;
+	padding-right: 4px;
+	padding-top: 4px;
+}
+ .skingradient {
+	background-image: url(menuback.jpg);
+	height:29px;
+}
+.MainMenu_RootMenuItem TD  /* Ana menu normal */
+{
+   BORDER-RIGHT: 0px solid transparent;
+   BORDER-TOP: 0px solid transparent;
+   BORDER-LEFT: 0px solid transparent;
+   BORDER-BOTTOM: 0px solid transparent;;
+   CURSOR: hand;
+   background-image:url(menucenter.jpg); 
+  /* width: 100px; 
+   text-align: center; */
+   color: #ffffff;
+   height: 29px;
+}
+.MainMenu_RootMenuSelectedItem TD /* Ana menu mouse over*/
+{
+   BORDER-RIGHT: 0px solid #285E82;					
+   BORDER-TOP: 0px solid #285E82;
+   BORDER-LEFT: 0px solid #285E82;
+   BORDER-BOTTOM: 0px solid #285E82;
+   CURSOR: hand;
+   background-image:url(menucenter.jpg); 
+   /*width: 100px; 
+   text-align: center; */
+   color: #ffffff;
+   height: 29px;
+}
+.MainMenu_RootMenuItemActive TD  /* Ana menu aktif sayfa */
+{
+   BORDER-RIGHT: 0px solid Black;
+   BORDER-TOP: 0px solid Black;
+   BORDER-LEFT: 0px solid Black;
+   BORDER-BOTTOM: 0px solid #114369;
+   CURSOR: hand;
+   background-image:url(menucentermo.jpg); 
+   /*width: 100px; 
+   text-align: center; */
+   color: #ffffff;
+   height: 29px;
+}
+
+
+.MainMenu_LeftActive {
+	border: none;
+	background-image: url(menuleftmo.jpg); 
+	width: 4px; 
+	height: 29px;
+	}
+ .MainMenu_RightActive { 
+  border: none;
+  background-image: url(menurightmo.jpg) ;
+  width: 4px; 
+  height: 29px;
+ }
+
+.MainMenu_LeftIdle{ 
+	border: none;
+   background-image: url(menuleft.jpg) ;
+   width: 4px; 
+   height: 29px;
+}
+.MainMenu_RightIdle { 
+  border: none; 	
+  background-image: url(menuright.jpg);
+  width: 4px; 
+  height: 29px; 
+  }
+
+
+.MainMenu_MenuContainer {
+	background-color: transparent;
+}
+.MainMenu_MenuBar {
+	cursor: pointer; 
+	cursor: hand;
+	background-color: transparent;
+	height: 29px;
+	
+}
+.MainMenu_MenuItem {	/* Altmenu genel ozellikleri   */
+	border-left: #cccccc 0px solid; 
+	border-bottom: #cccccc 0px solid; 
+	border-top: #cccccc 0px solid; 
+	border-right: #cccccc 0px solid;
+	cursor: pointer; 
+	cursor: hand; 
+	color: #000000; 									/* yazi rengi */
+	font-family: Calibri, Arial, Helvetica; 
+	font-size: 13px; 									/* yazi boyutu */
+	font-weight: normal; 
+	font-style: normal; 
+	background-color: transparent;
+	/*background-image: url(menuzemin.jpg);*/ /* altmenu zemin resimi */
+	/*width: 100px;*/ 								/* alt menu genislik */
+	height: 23px; 										/* alt menu yukseklik */
+}
+.MainMenu_MenuItemSel {	/* Altmenu mouse over genel ozellikleri  */ 
+	background-color: transparent; 
+	cursor: pointer; 
+	cursor: hand; 
+	color: #ffffff; 										/* yazi rengi */
+	font-family: Calibri, Arial, Helvetica; 
+	font-size: 13px; 									/* yazi boyutu */
+	font-weight: normal; 
+	font-style: normal;
+	height: 23px;										/* altmenu mouse over yukseklik */
+	background-image: url(menualtmo.jpg);  /* altmenude mouse over gorunen resim */
+}
+.MainMenu_MenuIcon {	/* Altmenu sol icon */
+	background-color: transparent;  					/* sol icon zemini */
+	border-left: 0px none Black; 
+	border-right: 0px none Black; 
+	border-bottom: 0px none Black; 
+	border-top: 0px none Black;
+	font-family: Calibri, Arial, Helvetica;
+	font-size: 13px;
+	cursor: hand; 
+	text-align: center;
+	width:10px;
+	height: 23px;										/* alt menu mouse over yukseklik */
+}
+.MainMenu_SubMenu {	/* Altmenu genel ozellikleri  */
+	background-color: #BFCFFE; 
+	z-index: 1000; 
+	cursor: hand; 
+	filter:progid:DXImageTransform.Microsoft.Shadow(color='#696969', Direction=135, Strength=3); 
+}
+.MainMenu_MenuBreak {	/* Altmenuler arasindaki bolum */
+	border: none;
+ 	background-color: transparent; 
+	height: 23px;
+}
+.MainMenu_MenuArrow {	/* altmenu den acilan altmenuyu gosteren ok bolgesi */ 
+	border: none;
+	 
+	font-size: 10pt; 
+	cursor: hand;
+
+}
+.MainMenu_RootMenuArrow {	/* anamenu den acilan altmenuyu gosteren ok bolgesi */ 
+	 
+	font-size: 10pt; 
+	cursor: hand;
+}
+.StandardButton {
+  background: #7994cb none; 
+  color: White;
+  font-family: Calibri, Arial, Helvetica; 
+  font-size: 13px; 
+  font-weight: normal;
+}
+.TreeViewMenu {
+	width: 175px;
+	background-color: #7994cb;
+	border-right: #7994cb 1px solid; 
+	border-top: #7994cb 1px solid; 
+	border-left: #7994cb 1px solid; 
+	border-bottom: #7994cb 1px solid; 
+	-moz-border-radius-bottomleft: 15px; 
+	-moz-border-radius-bottomright: 15px; 
+	-moz-border-radius-topleft: 3px; 
+	-moz-border-radius-topright: 3px;
+}
+.TreeViewMenu_Header {
+	background-image: url(gradient_LtBlue.jpg);
+}
+.Head {
+	font-family: Calibri, Arial, Helvetica; 
+	font-size: 13px; 
+   font-weight: normal;
+   color: #333333;
+}
+
+.search	/* yazilarin ayari */
+{
+    font-weight: normal;
+    font-size: 13px;
+    color: #000000;
+    font-family: Calibri, Arial, Helvetica;
+    text-decoration: none;
+    padding: 1px 3px 1px 1px;
+}
+A.search:link	/* HTTP linkli yazilarin ayari */
+{
+    color: #000000;
+    text-decoration: none;
+}
+A.search:visited	/* mouse ile tiklanmis linkli yazilarin ayari */
+{
+    color: #000000;
+    text-decoration: none;
+}
+A.search:active	/* sayfa yuklenirken gorunen linkli yazilarin ayari */
+{
+    color: #000000;
+    text-decoration: none;
+}
+A.search:hover	/* mouse yazinin uzerindeyken gorunen linkli yazilarin ayari */
+{
+    color: #2d9ddd;
+    text-decoration: none;
+ }
+
+
+
+ .SkinObject	/* yazilarin ayari */
+{
+    font-weight: normal;
+    font-size: 13px;
+    color: White;
+    font-family: Calibri, Arial, Helvetica;
+    text-decoration: none;
+    padding: 1px 3px 1px 1px;
+}
+A.SkinObject:link	/* HTTP linkli yazilarin ayari */
+{
+    color: White;
+    text-decoration: none;
+}
+A.SkinObject:visited	/* mouse ile tiklanmis linkli yazilarin ayari */
+{
+    color: White;
+    text-decoration: none;
+}
+A.SkinObject:active	/* sayfa yuklenirken gorunen linkli yazilarin ayari */
+{
+    color: White;
+    text-decoration: none;
+}
+A.SkinObject:hover	/* mouse yazinin uzerindeyken gorunen linkli yazilarin ayari */
+{
+    color: #66CC99;
+    text-decoration: none;
+ }
+  .user	/* yazilarin ayari */
+{
+    font-weight: normal;
+    font-size: 13px;
+    color: #339966;
+    font-family: Calibri, Arial, Helvetica;
+    text-decoration: none;
+    padding: 1px 3px 1px 1px;
+}
+A.user:link	/* HTTP linkli yazilarin ayari */
+{
+    color: #339966;
+    text-decoration: none;
+}
+A.user:visited	/* mouse ile tiklanmis linkli yazilarin ayari */
+{
+    color: #339966;
+    text-decoration: none;
+}
+A.user:active	/* sayfa yuklenirken gorunen linkli yazilarin ayari */
+{
+    color: #339966;
+    text-decoration: none;
+}
+A.user:hover	/* mouse yazinin uzerindeyken gorunen linkli yazilarin ayari */
+{
+    color: #66CC99;
+    text-decoration: none;
+ }
+   .date	/* yazilarin ayari */
+{
+    font-weight: normal;
+    font-size: 15px;
+    color: #339966;
+    font-family: Calibri, Arial, Helvetica;
+    text-decoration: none;
+    padding: 1px 3px 1px 1px;
+}

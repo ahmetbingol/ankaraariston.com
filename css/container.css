@@ -1,0 +1,111 @@
+/* 
+================================
+ Container Styles for DotNetNuke
+================================
+*/   
+.pading{
+	padding-left: 5px;
+	padding-bottom: 5px;
+	padding-right: 5px;
+	padding-top: 5px;
+}
+.containermaster_blue {
+	width: 100%  ;
+	background-color: white;
+	-moz-border-radius-bottomleft: 15px; 
+	-moz-border-radius-bottomright: 15px; 
+	-moz-border-radius-topleft: 3px; 
+	-moz-border-radius-topright: 3px;
+
+}
+
+
+.ModuleTitle_MenuItem {
+	border: white 0px solid; /*override borders*/    
+}
+
+.ModuleTitle_MenuItem TD {  /*TD if menu is using tables*/
+	cursor: pointer; 
+	cursor: hand; 
+	color: black; 
+	font-family: Tahoma, Arial, Helvetica; 
+	font-size: 9pt; 
+	font-weight: bold; 
+	font-style: normal;
+	height: 21px;
+        white-space: nowrap;  /*Word wrapping menu item now optional*/
+        padding: 1px 3px 3px 1px;	
+}
+
+
+.ModuleTitle_MenuIcon {
+	cursor: pointer; 
+	cursor: hand; 
+	background-color: #EEEEEE; 
+	width: 15px;
+	height: 100%;   /*override the default height for icon so that menubreaks can have heights adjusted*/
+}
+
+.ModuleTitle_SubMenu 
+{
+	z-index: 1000; 
+	cursor: pointer; 
+	cursor: hand; 
+	background-color: #FFFFFF; 
+	filter:progid:DXImageTransform.Microsoft.Shadow(color='DimGray', Direction=135, Strength=3); 
+	padding: 1px 1px 1px 1px;   /*explicitly set padding for sub-menus */
+}
+
+.ModuleTitle_MenuBreak  {
+	background-color: #EEEEEE; 
+	font-size: 1px; /*make sure you take out portal.css ModuleTitle_MenuBreak for this to work*/
+}
+
+.ModuleTitle_MenuItemSel {
+
+	cursor: pointer; 
+	cursor: hand; 
+	color: black; 
+	font-family: Tahoma, Arial, Helvetica; 
+	font-size: 9pt; 
+	font-weight: bold; 
+	font-style: normal;
+	background-color: #C1D2EE;
+}
+.baslik{	
+	font-family: Calibri, Arial, Helvetica; 
+	font-weight: normal; 
+	font-style: normal;
+	color: #000000;					/* yazi rengi */
+	font-size: 13px;					/* yazi boyutu */
+
+}
+
+.Normal , .NormalDisabled
+{
+	color: #000000;					/* yazi rengi */
+	font-size: 13px;					/* yazi boyutu */
+	font-family: Calibri, Arial, Helvetica;
+	font-weight: normal; 
+	font-style: normal; 
+}
+
+A:link, A:visited, A:active             
+/* HTTP linkli yazilar, tiklanmis linkli yazilar, Sayfa yuklenirken gorunen linkli yazilar */
+{    
+    	text-decoration:    none;
+	color: #333333;					/* yazi rengi */
+	font-size: 13px;					/* yazi boyutu */
+	font-family: Calibri, Arial, Helvetica;
+	font-weight: normal; 
+	font-style: normal; 
+}
+A:hover    /* Mouse Over */
+{
+   text-decoration:    underline;
+	color: Fuchsia;					/* yazi rengi */
+	font-size: 13px;					/* yazi boyutu */
+	font-family: Calibri, Arial, Helvetica;
+	font-weight: normal; 
+	font-style: normal; 
+}
